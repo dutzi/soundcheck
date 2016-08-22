@@ -1,0 +1,21 @@
+{
+  "name": "soundcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "python -m SimpleHTTPServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dutzi <dutzi@wix.com> (http://github.com/dutzi)",
+  "license": "ISC",
+  "dependencies": {
+    "applescript": "~0.2.1",
+    "colors": "^1.1.2",
+    "fs-exists-sync": "^0.1.0",
+    "jsonfile": "^2.3.1",
+    "prompt": "^1.0.0",
+    "q": "^1.4.1"
+  }
+}
